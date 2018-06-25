@@ -1,82 +1,5 @@
                         <?php include 'top.php'; ?>
-                        <style>
-                            .col-xs-12, .col-sm-6 {
-                                /*border: 5px solid #fff;
-                                background: #fff;*/
-                            }
-                            /* BIG */
-                            @media only screen and (min-width: 600px) {
-                                .banner-row {
-                                    background-image: url("/banner.jpg");
-                                    background-size: cover; 
-                                    background-position:center;
-                                    min-height: 300px;
-                                    margin-left: 3px;
-                                }
-                            }
-                            /* SMALL */
-                            @media only screen and (max-width: 600px) {
-                                .banner-row {
-                                    background-image: url("/banner.jpg");
-                                    background-size: cover; 
-                                    background-position:center;
-                                    min-height: 175px;
-                                }
-                            }
-
-
-                            .row {
-                                
-                            }
-                            .bg-white {
-                                background: #fff;
-                                clear:both;
-                            }
-                            img.banner {
-                                margin-left: 4px; 
-                                width: 100%; 
-                                height: 100%;
-                            }
-                            /* BIG */
-                            @media only screen and (min-width: 600px) {
-                                .xlwords {
-                                    color: #fff;
-                                    position: absolute;
-                                    margin-top: 70px;
-                                    margin-left: 80px;
-                                    
-                                }
-                            }
-                            /* SMALL */
-                            @media only screen and (max-width: 600px) {
-                                .xlwords {
-                                    color: #fff;
-                                    position: absolute;
-                                    margin-top: 50px;
-                                    margin-left: 20px;
-                                    
-                                }
-                            }
-                            /* BIG */
-                            @media only screen and (min-width: 600px) {
-                                .super {
-                                    font-family: "Open Sans";
-                                    font-style: italic;
-                                    font-size: 35;
-                                    font-weight: 600;
-                                }
-                            }
-                            /* SMALL */
-                            @media only screen and (max-width: 600px) {
-                                .super {
-                                    font-family: "Open Sans";
-                                    font-style: italic;
-                                    font-size: 28;
-                                    font-weight: 600;
-                                }
-                            }
-
-                        </style>
+                        <link rel="stylesheet" type="text/css" href="banner.css" media="all" />
                         <div class="bg-white">
                             <div id="make-space">
                                 <form method="POST" name="RegisterForm" action="/payment.php" >
@@ -255,7 +178,7 @@
                                     <div class="col-xs-1"></div>
                                     <div class="col-xs-10">
                                         <div class="form-group">
-                                            <button style="background-color: #1B4985; padding: 8px" action="submit" type="submit" title="Create an Account" class="btn btn-info">Register me!</button>
+                                            <button style="margin-bottom:30px; float: right; background-color: #1B4985; padding: 8px" action="submit" type="submit" title="Create an Account" class="btn btn-info">NEXT -></button>
                                         </div>
                                     </div>
                                     <div class="col-xs-1"></div>

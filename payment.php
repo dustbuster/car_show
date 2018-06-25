@@ -24,84 +24,7 @@ if(!empty($_POST)):
 endif;
                     ?>
                     <?php include 'top.php'; ?>
-                        <style>
-                            .col-xs-12, .col-sm-6 {
-                                /*border: 5px solid #fff;
-                                background: #fff;*/
-                            }
-                            /* BIG */
-                            @media only screen and (min-width: 600px) {
-                                .banner-row {
-                                    background-image: url("/banner.jpg");
-                                    background-size: cover; 
-                                    background-position:center;
-                                    min-height: 300px;
-                                    margin-left: 3px;
-                                }
-                            }
-                            /* SMALL */
-                            @media only screen and (max-width: 600px) {
-                                .banner-row {
-                                    background-image: url("/banner.jpg");
-                                    background-size: cover; 
-                                    background-position:center;
-                                    min-height: 175px;
-                                }
-                            }
-
-
-                            .row {
-                                
-                            }
-                            .bg-white {
-                                background: #fff;
-                                clear:both;
-                            }
-                            img.banner {
-                                margin-left: 4px; 
-                                width: 100%; 
-                                height: 100%;
-                            }
-                            /* BIG */
-                            @media only screen and (min-width: 600px) {
-                                .xlwords {
-                                    color: #fff;
-                                    position: absolute;
-                                    margin-top: 70px;
-                                    margin-left: 80px;
-                                    
-                                }
-                            }
-                            /* SMALL */
-                            @media only screen and (max-width: 600px) {
-                                .xlwords {
-                                    color: #fff;
-                                    position: absolute;
-                                    margin-top: 50px;
-                                    margin-left: 20px;
-                                    
-                                }
-                            }
-                            /* BIG */
-                            @media only screen and (min-width: 600px) {
-                                .super {
-                                    font-family: "Open Sans";
-                                    font-style: italic;
-                                    font-size: 35;
-                                    font-weight: 600;
-                                }
-                            }
-                            /* SMALL */
-                            @media only screen and (max-width: 600px) {
-                                .super {
-                                    font-family: "Open Sans";
-                                    font-style: italic;
-                                    font-size: 28;
-                                    font-weight: 600;
-                                }
-                            }
-
-                        </style>
+                        <link rel="stylesheet" type="text/css" href="banner.css" media="all" />
                         <div class="bg-white">
                             <div id="make-space">
                                 <form method="POST" name="RegisterForm" action="" >
@@ -136,7 +59,7 @@ endif;
                                 
                                 <div class="row">
                                     <div class="col-xs-1"></div>
-                                    <div class="col-xs-12">
+                                    <div class="col-sm-10 col-xs-12">
                                         <div class="form-group">
                                             <div class="card-js space">
                                                 <input style="border: 1px solid #ccc;" class="card-number my-custom-class" name="card_number">
@@ -151,7 +74,7 @@ endif;
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-1"></div>
-                                    <div class="col-xs-12">
+                                    <div class="col-sm-10 col-xs-12">
                                         <div class="form-group">
                                             <div id="showaddress" class="maadd form-group">
                                                 <label class="font-co">Billing Address</label>
@@ -181,24 +104,29 @@ endif;
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-xs-12">
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-1"></div>
+                                    <div class="col-xs-10">
                                         <div class="form-group">
-                                            <button action="submit" type="submit" title="Create an Account" class="btn btn-space buttons_newaccount">Register me!</button>
+                                            <button style="background-color: #1B4985; padding: 8px" action="submit" type="submit" title="Create an Account" class="btn btn-info">Register me!</button>
                                         </div>
                                     </div>
-                                    <input type="hidden" value="<?=$RegisterForm?>" name="RegisterForm">
-                                    <input type="hidden" value="<?=$first_name?>" name="first_name">
-                                    <input type="hidden" value="<?=$last_name?>" name="last_name">
-                                    <input type="hidden" value="<?=$email?>" name="email">
-                                    <input type="hidden" value="<?=$address?>" name="address">
-                                    <input type="hidden" value="<?=$city?>" name="city">
-                                    <input type="hidden" value="<?=$state?>" name="state">
-                                    <input type="hidden" value="<?=$zipcode?>" name="zipcode">
-                                    <input type="hidden" value="<?=$registertype?>" name="registertype">
-                                    <input type="hidden" value="<?=$cartype?>" name="cartype">
-                                    <input type="hidden" value="<?=$emaillist?>" name="emaillist">
-                                    <input type="hidden" value="true" name="submitted">
-                                    </form>
+                                    <div class="col-xs-1"></div>
+                                </div>
+                                <input type="hidden" value="<?=$RegisterForm?>" name="RegisterForm">
+                                <input type="hidden" value="<?=$first_name?>" name="first_name">
+                                <input type="hidden" value="<?=$last_name?>" name="last_name">
+                                <input type="hidden" value="<?=$email?>" name="email">
+                                <input type="hidden" value="<?=$address?>" name="address">
+                                <input type="hidden" value="<?=$city?>" name="city">
+                                <input type="hidden" value="<?=$state?>" name="state">
+                                <input type="hidden" value="<?=$zipcode?>" name="zipcode">
+                                <input type="hidden" value="<?=$registertype?>" name="registertype">
+                                <input type="hidden" value="<?=$cartype?>" name="cartype">
+                                <input type="hidden" value="<?=$emaillist?>" name="emaillist">
+                                <input type="hidden" value="true" name="submitted">
+                                </form>
                                 </div>
                             </div>
                         </div>

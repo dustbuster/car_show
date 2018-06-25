@@ -1,0 +1,77 @@
+/* THIS IS MOSTLY JSUT FOR THE BANNER AREA */
+
+.col-xs-12, .col-sm-6 {
+    /*border: 5px solid #fff;
+    background: #fff;*/
+}
+/* BIG */
+@media only screen and (min-width: 600px) {
+    .banner-row {
+        background-image: url("/banner.jpg");
+        background-size: cover; 
+        background-position:center;
+        min-height: 300px;
+        margin-left: 3px;
+    }
+}
+/* SMALL */
+@media only screen and (max-width: 600px) {
+    .banner-row {
+        background-image: url("/banner.jpg");
+        background-size: cover; 
+        background-position:center;
+        min-height: 175px;
+    }
+}
+
+
+.row {
+    
+}
+.bg-white {
+    background: #fff;
+    clear:both;
+}
+img.banner {
+    margin-left: 4px; 
+    width: 100%; 
+    height: 100%;
+}
+/* BIG */
+@media only screen and (min-width: 600px) {
+    .xlwords {
+        color: #fff;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 80px;
+        
+    }
+}
+/* SMALL */
+@media only screen and (max-width: 600px) {
+    .xlwords {
+        color: #fff;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 20px;
+        
+    }
+}
+/* BIG */
+@media only screen and (min-width: 600px) {
+    .super {
+        font-family: "Open Sans";
+        font-style: italic;
+        font-size: 35;
+        font-weight: 600;
+    }
+}
+/* SMALL */
+@media only screen and (max-width: 600px) {
+    .super {
+        font-family: "Open Sans";
+        font-style: italic;
+        font-size: 28;
+        font-weight: 600;
+    }
+}
