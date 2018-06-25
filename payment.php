@@ -29,19 +29,7 @@ endif;
                             <div id="make-space">
                                 <form method="POST" name="RegisterForm" action="" >
                                 <div class="row">
-                                    <div class="banner-row">
-                                        <div class="col-xs-1"></div>
-                                            <div class="xlwords">
-                                                <div class="super-date">
-                                                    SATURDAY, JULY 28th
-                                                </div>
-                                                <h1 class="super">
-                                                    2018 EASTWOOD<br>
-                                                    SUMMER CLASSIC
-                                                </h1>
-                                            </div>
-                                        <div class="col-xs-1"></div>
-                                    </div>
+                                    <?php include 'banner.php'; ?>
                                     <div class="col-xs-12">
                                         <h2 class="big-title" style="">Enter your Credit Card information</h2>
                                     </div>

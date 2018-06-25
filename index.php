@@ -3,21 +3,7 @@
                         <div class="bg-white">
                             <div id="make-space">
                                 <form method="POST" name="RegisterForm" action="/payment.php" >
-
-                                <div class="row">
-                                    <div class="banner-row">
-                                        <div class="col-xs-1"></div>
-                                            <div class="xlwords">
-                                                <div class="super-date">
-                                                    SATURDAY, JULY 28th
-                                                </div>
-                                                <h1 class="super">
-                                                    2018 EASTWOOD<br>
-                                                    SUMMER CLASSIC
-                                                </h1>
-                                            </div>
-                                        <div class="col-xs-1"></div>
-                                    </div>
+                                    <?php include 'banner.php'; ?>
                                     <div class="col-xs-12">
                                         <h2 class="big-title" style="">Register for the Summer Classic!</h2>
                                     </div>
@@ -148,7 +134,7 @@
                                             <div class="radio">
                                                 <label class="font-rad">
                                                     <input type="radio" name="emaillist" id="optionsRadios1" value="both" checked>
-                                                    I would like to recieve more great offers from Eastwood&trade; in Email alerts and Monthly Catalog!
+                                                    I would like to receive more great offers from Eastwood&trade; in Email alerts and Monthly Catalog!
                                                 </label>
                                             </div>
                                             <div class="radio">
